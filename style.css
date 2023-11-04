@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.450),rgba(0, 0, 0, 0.450)), url("./room1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 80px;
+}
+menu{
+    width: 80%;
+}
+img{
+    float: left;
+    width:50px;
+    padding-top: 1%;
+}
+menu ul li{
+    display: inline-block;
+    padding-top:30px;
+}
+menu ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 25px;
+    font-family: valera ;
+    color: white;
+}
+ul{
+    float: right;
+}
+menu ul li a:hover{
+    color:yellow;
+    border-bottom:solid  darkgoldenrod;
+    padding-top: 15px;
+    transition: 0.5s;
+}
+.main{
+     padding-top: 25px;
+    color:whitesmoke;
+    text-align: center;
+    
+    
+}
+
+.info{
+    text-align:center;
+    width:80%;
+    color: antiquewhite;
+    margin-top:2%;
+    background-color:rgba(0, 0, 0, 0.596);
+    border-radius:15px;
+    height:400px;
+    width: 600px;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.info p{
+    line-height: 23px;
+    width: 550px;
+    font-size: 17px;
+    padding-top: 15px;
+    margin-top: 0.5%;
+}
+button{
+    margin-top: 10%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: dodgerblue;
+    color: white;
+    border:none;
+    outline: none;
+}
+button:hover{
+    background-color: yellowgreen;
+    transition: 0.5s;
+
+}
